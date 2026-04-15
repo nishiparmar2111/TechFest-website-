@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>TechFest 2026</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- Background Video -->
+<video autoplay muted loop id="bgVideo">
+    <source src="video.mp4" type="video/mp4">
+</video>
+
+<!-- HEADER -->
+<header>
+<h2>TechFest 2026</h2>
+<nav>
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="events.html">Events</a>
+<a href="gallery.html">Gallery</a>
+<a href="contact.html">Contact</a>
+</nav>
+</header>
+
+<!-- HERO -->
+<section id="home" class="hero">
+<h1>Welcome to TechFest</h1>
+<p>Hack • Code • Create</p>
+<button onclick="openForm()">Register Now</button>
+</section>
+
+<!-- REGISTER POPUP -->
+<div id="registerForm" class="popup">
+<h2>Register</h2>
+
+<form onsubmit="return validateRegister()">
+
+<input type="text" id="rname" placeholder="Name" required><br>
+
+<input type="email" id="remail" placeholder="Email" required><br>
+
+<input type="text" id="rphone" placeholder="Phone" required><br>
+
+<!-- NEW: College Name -->
+<input type="text" id="college" placeholder="College Name" required><br>
+
+<!-- NEW: Select Event -->
+<select id="event" required>
+    <option value="">Select Event</option>
+    <option value="Code War">Code War</option>
+    <option value="Hackathon">Hackathon</option>
+    <option value="Bug Bounty">Bug Bounty</option>
+    <option value="CTF Challenge">CTF Challenge</option>
+</select><br>
+
+<button type="submit">Submit</button>
+<button type="button" onclick="closeForm()">Close</button>
+
+</form>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

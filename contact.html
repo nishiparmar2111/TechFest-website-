@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>TechFest 2026</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- Background Video -->
+<video autoplay muted loop id="bgVideo">
+    <source src="video.mp4" type="video/mp4">
+</video>
+<!-- HEADER -->
+<header>
+<h2>TechFest 2026</h2>
+<nav>
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="events.html">Events</a>
+<a href="gallery.html">Gallery</a>
+<a href="contact.html">Contact</a>
+</nav>
+</header>
+<!-- CONTACT -->
+<section id="contact" class="section">
+    <br><br><br><br><br>
+<h1>Contact Us</h1>
+<form onsubmit="return validateForm()">
+<input type="text" id="name" placeholder="Name"><br>
+<input type="email" id="email" placeholder="Email"><br>
+<textarea id="msg" placeholder="Message"></textarea><br>
+<button type="submit">Submit</button>
+</form>
+</section>
+<script src="script.js"></script>
+</body>
+</html>

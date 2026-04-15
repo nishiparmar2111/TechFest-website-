@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>TechFest 2026</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- Background Video -->
+<video autoplay muted loop id="bgVideo">
+    <source src="video.mp4" type="video/mp4">
+</video>
+
+<!-- HEADER -->
+<header>
+<h2>TechFest 2026</h2>
+<nav>
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="events.html">Events</a>
+<a href="gallery.html">Gallery</a>
+<a href="contact.html">Contact</a>
+</nav>
+</header>
+
+<!-- EVENTS -->
+<section id="events" class="section">
+    <br><br><br>
+<h1>Events</h1>
+
+<div class="events-container">
+
+<div class="card" onclick="showEvent('Code War')">
+<h3>⚡ Code War</h3>
+<p>Competitive programming contest where participants solve problems within time.</p>
+</div>
+
+<div class="card" onclick="showEvent('Hackathon')">
+<h3>💻 Hackathon</h3>
+<p>24-hour coding challenge to build innovative solutions in teams.</p>
+</div>
+
+<div class="card" onclick="showEvent('Bug Bounty')">
+<h3>🐞 Bug Bounty</h3>
+<p>Find and fix errors in given programs to improve debugging skills.</p>
+</div>
+
+<div class="card" onclick="showEvent('CTF Challenge')">
+<h3>🚩 CTF Challenge</h3>
+<p>Cyber security event with puzzles, encryption, and hacking tasks.</p>
+</div>
+
+</div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
