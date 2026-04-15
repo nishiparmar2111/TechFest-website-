@@ -35,8 +35,6 @@ TechFest-website/
 │   ├── download.jpeg
 
 ▶️ How to Run the Project
-<img width="500" height="305" alt="image" src="https://github.com/user-attachments/assets/d03f3713-9552-4ed4-87bf-2cae5c9d5a90" />
-
 1. Download or clone this repository
 2. Open the project folder
 3. Open `index.html` in any web browser
